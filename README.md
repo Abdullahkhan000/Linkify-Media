@@ -66,6 +66,7 @@ Perfect for **backend APIs**, **media platforms**, and **automation scripts**.
 
     pip install requests
     pip install django-decouple
+    or use pip install - requirements.txt
 
 ---
 
