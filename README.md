@@ -1,7 +1,7 @@
 # 🎬 Linkify-Media
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-2ea44f?style=flat)](https://github.com/YourUsername/your-repo/issues)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-2ea44f?style=flat)](https://github.com/Abdullahkhan000/Linkify-Media/issues)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
 <div align="center">
