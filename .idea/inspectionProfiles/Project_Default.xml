@@ -1,0 +1,100 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="49" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="#5bbad5" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="annotated-types" />
+          <option value="asgiref" />
+          <option value="attrs" />
+          <option value="cachetools" />
+          <option value="certifi" />
+          <option value="charset-normalizer" />
+          <option value="click" />
+          <option value="colorama" />
+          <option value="Django" />
+          <option value="django-crispy-forms" />
+          <option value="django-filter" />
+          <option value="django-phonenumber-field" />
+          <option value="django-stubs" />
+          <option value="django-stubs-ext" />
+          <option value="django-widget-tweaks" />
+          <option value="djangorestframework" />
+          <option value="djangorestframework-stubs" />
+          <option value="drf-spectacular" />
+          <option value="drf-spectacular-sidecar" />
+          <option value="google-ai-generativelanguage" />
+          <option value="google-api-core" />
+          <option value="google-api-python-client" />
+          <option value="google-auth" />
+          <option value="google-auth-httplib2" />
+          <option value="google-auth-oauthlib" />
+          <option value="google-generativeai" />
+          <option value="googleapis-common-protos" />
+          <option value="grpcio" />
+          <option value="grpcio-status" />
+          <option value="gunicorn" />
+          <option value="h11" />
+          <option value="httplib2" />
+          <option value="idna" />
+          <option value="inflection" />
+          <option value="jsonschema" />
+          <option value="jsonschema-specifications" />
+          <option value="oauthlib" />
+          <option value="packaging" />
+          <option value="phonenumberslite" />
+          <option value="pillow" />
+          <option value="proto-plus" />
+          <option value="protobuf" />
+          <option value="psycopg" />
+          <option value="psycopg2-binary" />
+          <option value="pyasn1" />
+          <option value="pyasn1_modules" />
+          <option value="pydantic" />
+          <option value="pydantic_core" />
+          <option value="pyparsing" />
+          <option value="python-decouple" />
+          <option value="PyYAML" />
+          <option value="referencing" />
+          <option value="requests" />
+          <option value="requests-oauthlib" />
+          <option value="rpds-py" />
+          <option value="rsa" />
+          <option value="sqlparse" />
+          <option value="tqdm" />
+          <option value="types-PyYAML" />
+          <option value="types-requests" />
+          <option value="typing-inspection" />
+          <option value="typing_extensions" />
+          <option value="tzdata" />
+          <option value="uritemplate" />
+          <option value="urllib3" />
+          <option value="uvicorn" />
+          <option value="whitenoise" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="project.movieapp.urls.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
