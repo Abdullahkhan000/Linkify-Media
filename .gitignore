@@ -1,2 +1,6 @@
 .env
-.idea
+.idea/
+*.iml
+# Virtual environment
+venv/
+.venv/
