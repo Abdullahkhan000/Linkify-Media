@@ -4,10 +4,7 @@ from pprint import pprint
 from decouple import config
 
 TMDB_API_KEY = config("TMDB_API_KEY")
-
-
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
-
 
 def slugify(title: str):
     title = title.lower()
@@ -15,14 +12,12 @@ def slugify(title: str):
     title = re.sub(r"\s+", "_", title)
     return title
 
-
 def rt_url_exists(url: str):
     try:
         r = requests.head(url, timeout=5, allow_redirects=True)
         return r.status_code == 200
     except:
         return False
-
 
 def fetch_tmdb_data(title: str, media_type="movie"):
     search_url = f"{TMDB_BASE_URL}/search/{media_type}"
@@ -57,18 +52,16 @@ def fetch_tmdb_data(title: str, media_type="movie"):
 
     return official_title, tmdb_link, imdb_link
 
-
-def generate_links():
-    title = input("Enter Movie or TV Series Name: ").strip()
+# <<< NEW function for testing >>>
+def generate_links_for(title: str, media="movie"):
     if not title:
         return {}
 
-    media = input("Type 'movie' or 'tv' (default movie): ").strip().lower()
+    media = media.lower()
     if media not in ("movie", "tv"):
         media = "movie"
 
     rt_type = "m" if media == "movie" else "tv"
-
     slug = slugify(title)
     rt_link = f"https://www.rottentomatoes.com/{rt_type}/{slug}"
 
@@ -91,16 +84,23 @@ def generate_links():
     if 'tmdb_link' not in locals() or tmdb_link is None:
         official_title, tmdb_link, imdb_link = fetch_tmdb_data(title, media)
 
-    result = {
+    return {
         "Official Title": official_title,
         "TMDB Link": tmdb_link,
         "IMDb Link": imdb_link,
         "Rotten Tomatoes Link": rt_final
     }
 
-    return result
-
+def generate_links():
+    title = input("Enter Movie or TV Series Name: ").strip()
+    if not title:
+        return {}
+    media = input("Type 'movie' or 'tv' (default movie): ").strip().lower()
+    if media not in ("movie", "tv"):
+        media = "movie"
+    links = generate_links_for(title, media)
+    pprint(links, sort_dicts=False)
+    return links
 
 if __name__ == "__main__":
-    links = generate_links()
-    pprint(links, sort_dicts=False)
+    generate_links()
