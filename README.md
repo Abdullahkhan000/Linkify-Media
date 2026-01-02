@@ -43,7 +43,7 @@ Perfect for **backend APIs**, **media platforms**, and **automation scripts**.
 
 ### 1️⃣ Clone Repository
 
-    git clone https://github.com/YourUsername/your-repo.git
+    git clone [https://github.com/YourUsername/your-repo.git](https://github.com/Abdullahkhan000/Linkify-Media)
     cd your-repo
 
 ---
