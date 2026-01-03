@@ -183,5 +183,5 @@ You are free to use, modify, and distribute it.
 ---
 
 <div align="center">
-  <p>🚀 This project is proudly made by <b>code2encoder</b> 🚀</p>
+  <p>🚀 This project is proudly made by <b>code2encoder aka / Shadow Dev</b> 🚀</p>
 </div>
